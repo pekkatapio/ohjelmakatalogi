@@ -10,9 +10,9 @@ function SystemLabel(props) {
     // muuten pelkällä tekstillä.
     if (index >= 0) {
       let icon = icons[index];
-      return <Label icon={icon.icon} text={icon.title} />;  
+      return <Label icon={icon.icon} text={icon.title} kind={props.kind} />;  
     } else {
-      return <Label text={props.id} />; 
+      return <Label text={props.id} kind={props.kind} />; 
     }
   
 }

@@ -1,15 +1,55 @@
 .label {
-  display: inline-flex;  
+  display: inline-flex;
   align-items: center;
   height: 2em;
   margin: 0.3em 0.3em;
   font-size: 0.8em;
-  background-color: #ccc;
-  color: #333;
+  background-color: #F1F1F1;
+  color: #3E3E3E;
   border-radius: 0.2em;
   padding: 0 0.4em;
 }
-  
-.label div {  
+
+.label div { 
   margin: 0 0.1em;
+}
+
+.label_magenta {
+  background-color: #B32D84;
+  color: #FFF;
+}
+
+.label_darkmagenta {
+  background-color: #761E57;
+  color: #FFF;
+}
+
+.label_cyan {
+  background-color: #50C2E1;
+  color: #FFF;
+}
+
+.label_darkcyan {
+  background-color: #00A0C0;
+  color: #FFF;
+}
+
+.label_green {
+  background-color: #B2C83E;
+  color: #FFF;
+}
+
+.label_grey {
+  background-color: #E4E4E4;
+  color: #000;
+}
+
+.label_lightgrey {
+  background-color: #F1F1F1;
+  color: #000;
+}
+
+.label_darkgrey {
+  background-color: #3E3E3E;
+  color: #FFF;
 }
