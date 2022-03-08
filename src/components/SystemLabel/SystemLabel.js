@@ -1,7 +1,7 @@
-import Label from '../../components/Label';
-import icons from '../../assets/icons';
+import Label from '../Label';
+import icons from '../../config/systemicons';
 
-function System(props) {
+function SystemLabel(props) {
 
     // Selvitetään ikonitaulukon alkion indeksi.
     let index = icons.findIndex(item => (item.id === props.id));
@@ -9,7 +9,7 @@ function System(props) {
     // Jos ikoni löytyy, niin muodostetaan kuvallinen merkki, 
     // muuten pelkällä tekstillä.
     if (index >= 0) {
-      let icon = icons[index];      
+      let icon = icons[index];
       return <Label icon={icon.icon} text={icon.title} />;  
     } else {
       return <Label text={props.id} />; 
@@ -17,4 +17,4 @@ function System(props) {
   
 }
 
-export default System;
+export default SystemLabel;
