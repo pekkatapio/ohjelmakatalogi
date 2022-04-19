@@ -1,0 +1,48 @@
+.catalog_loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.testi {
+  background-color: #E4E4E4;
+  height: 5em;
+  transition: all 200ms ease;
+}
+
+.testihidden {
+  height: 0;
+  overflow: hidden;
+}
+
+.haku {
+  background-color: #E4E4E4;
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.haku > div {
+  display: flex;
+  align-items: center;
+}
+
+.haku_teksti {
+  box-shadow: inset 2px 2px 3px 0 rgb(0 0 0 / 29%);
+  border-radius: 3px;
+  background-color: #fff;
+  border: 0;
+  padding: 13px;
+  flex: 1
+}
+
+.haku_nappi {
+  box-shadow: 2px 2px 3px 0 rgb(0 0 0 / 29%); 
+  border-radius: 3px;
+  background-color: #3e3e3e;
+  border: 0;
+  padding: 13px 33px;
+  color: #fff;
+  margin-left: 10px;
+}

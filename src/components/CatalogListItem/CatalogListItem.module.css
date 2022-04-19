@@ -1,0 +1,28 @@
+.catalogitem {
+  display: flex;
+  align-items: center;
+}
+
+.catalogitem_icon img {
+  width: 70px;
+  height: 70px;
+  padding: 1em;
+}
+
+.catalogitem_data {
+  flex: 1;
+}
+
+.catalogitem_data h2 {
+  margin: 0;
+}
+
+.catalogitem_license {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalogitem_system {
+  font-size: 1.2em;
+  color: #666;
+}
